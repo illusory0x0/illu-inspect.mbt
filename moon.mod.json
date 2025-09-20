@@ -1,6 +1,10 @@
 {
   "name": "username/hello",
   "version": "0.1.0",
+  "deps": {
+    "illusory0x0/quote": "0.1.0",
+    "moonbitlang/x": "0.4.34"
+  },
   "readme": "README.md",
   "repository": "",
   "license": "Apache-2.0",

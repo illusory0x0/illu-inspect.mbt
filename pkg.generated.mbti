@@ -1,0 +1,28 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "username/hello"
+
+// Values
+
+// Errors
+
+// Types and methods
+type TestBlock
+#callsite(autofill(loc))
+fn TestBlock::define((Self) -> Unit, loc~ : SourceLoc) -> Unit
+#callsite(autofill(argsloc, loc))
+fn TestBlock::inspect(Self, &Show, expected? : String, loc~ : SourceLoc, argsloc~ : ArgsLoc) -> Unit
+impl Show for TestBlock
+
+type TestFileManager
+impl Show for TestFileManager
+
+type TestManager
+impl Show for TestManager
+
+type TestState
+impl Show for TestState
+
+// Type aliases
+
+// Traits
+
