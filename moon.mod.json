@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "keywords": [
     "testing",
-    "meta-programming", 
+    "meta-programming",
     "quotation",
     "snapshot-testing",
     "test-framework",
