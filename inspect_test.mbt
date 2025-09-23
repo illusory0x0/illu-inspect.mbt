@@ -19,7 +19,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test integers
     t.inspect(42, expected="42")
     t.inspect(-123, expected="-123")
@@ -29,7 +29,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test floating point numbers
     t.inspect(3.14159, expected="3.14159")
     t.inspect(-2.718, expected="-2.718")
@@ -40,7 +40,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test booleans
     t.inspect(true, expected="true")
     t.inspect(false, expected="false")
@@ -49,7 +49,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test strings with various content
     t.inspect("hello world", expected="hello world")
     t.inspect("", expected="")
@@ -60,7 +60,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test arrays
     t.inspect([1, 2, 3, 4, 5], expected="[1, 2, 3, 4, 5]")
     t.inspect([], expected="[]")
@@ -71,7 +71,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test nested structures
     t.inspect([[1, 2], [3, 4], [5, 6]], expected="[[1, 2], [3, 4], [5, 6]]")
     t.inspect([["hello"], ["world"]], expected="[[\"hello\"], [\"world\"]]")
@@ -80,7 +80,7 @@ test {
 
 ///|
 test {
-  TestBlock::define(fn(t) { 
+  TestBlock::define(fn(t) {
     // Test mixed type combinations
     t.inspect(123, expected="123")
     t.inspect("test", expected="test")
