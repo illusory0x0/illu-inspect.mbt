@@ -1,8 +1,9 @@
 {
-    "import": [
-      "moonbitlang/x/fs",
-      "moonbitlang/x/sys",
-      "illusory0x0/quote"
-    ],
-    "warn-list": "-A"
+  "import": [
+    "moonbitlang/x/fs",
+    "moonbitlang/x/sys",
+    "illusory0x0/quote",
+    "illusory0x0/path"
+  ],
+  "warn-list": "-A"
 }

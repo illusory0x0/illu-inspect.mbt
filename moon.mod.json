@@ -1,13 +1,21 @@
 {
-  "name": "username/hello",
+  "name": "illusory0x0/inspect",
   "version": "0.1.0",
   "deps": {
-    "illusory0x0/quote": "0.1.0",
+    "illusory0x0/quote": "0.2.0",
     "moonbitlang/x": "0.4.34"
   },
   "readme": "README.md",
-  "repository": "",
+  "repository": "https://github.com/illusory0x0/illu-inspect.mbt",
   "license": "Apache-2.0",
-  "keywords": [],
-  "description": ""
+  "keywords": [
+    "testing",
+    "meta-programming", 
+    "quotation",
+    "snapshot-testing",
+    "test-framework",
+    "inspect",
+    "moonbit-hack"
+  ],
+  "description": "A powerful quotation meta programming library that hacks MoonBit's snapshot test system, allowing you to customize `moon test` behavior with automatic source file updates and enhanced testing capabilities."
 }
